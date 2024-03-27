@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#background{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(https://raw.githubusercontent.com/kubowania/tinder-clone/main/client/src/images/6e9794bcedeecf5a8f8f41338a2a7345.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative; 
+}
+#navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0px 25px;
+}
+#nav-part1,#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+#nav-part1 img{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 80px;
+    font-weight: 300;
+    object-fit:contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+#nav-part2{
+    gap: 15px;
+}
+#nav-part2 a{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #7028e4;
+    background-color: white;
+}
+#nav-part2 a:hover{
+    background-color: #7028e4;
+    color: white;
+}
+#txt-center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#txt-center h1{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+}
+#txt-center #btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #7028e4;
+    color: white;
+    /* background: linear-gradient(to top, #7028e4 0%, #9f3f6c 95%);
+    color: white; */
+    font-weight: 600;
+}
+#btn a{
+    text-decoration: none;
+    color: white;
+}
+/* login */
+
+#login, #create{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(https://raw.githubusercontent.com/kubowania/tinder-clone/main/client/src/images/6e9794bcedeecf5a8f8f41338a2a7345.webp) !important;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#box{
+    margin: 0 auto;
+    padding: 10px 0px;
+    height: 50%;
+    width: 30%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    border-radius: 10px;
+}
+#box #cross{
+    padding-left: 80%;
+    font-size: 25px;
+}
+#box h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#box span{
+    text-decoration: underline;
+    color: blue;
+}
+#box button{
+    padding: 10px 0px;
+    width: 80%;
+    border-radius: 10px;
+}
+#box button i{
+    padding-left: -30px;
+} 
+#box h4{
+    font-weight: 500;
+    padding-bottom: 1%;
+
+}
+#app{
+    height: 20%;
+    width: 100%;
+    /* background-color: red; */
+}
+#app img{
+    height: 50px;
+    width: 50px;
+}
+ 
+/* create a/c */
+
+#create #box{
+    height: 70%;
+}
+#create input{
+    padding: 10px 7px;
+    width: 80%;
+    border-radius: 10px;
+}
+#create button{
+    width: 30%;
+    background-color: #7028e4;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+
+
+/* discover */
+#discover{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFEFE;
+    display: flex;
+}
+#discover #dislike{
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dislike #img-left{
+    height: 300px;
+    width: 300px;
+    background-image: url(Group\ 4\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+#discover #img-part{
+    height: 100%;
+    width: 40%;
+    /* background-color:darkblue; */
+    margin: 0 auto;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-7deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-2deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(2deg);
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(7deg);
+}
+#discover #like{
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+#like #img-right{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/564x/36/62/b6/3662b6e93c05f94e4d4819759cbf1ef3.jpg);
+    background-position: center;
+    background-size: cover;
+}
